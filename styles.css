@@ -1,0 +1,140 @@
+
+#ph{
+  width: 50%;
+
+}
+
+#one>div, #two>div {
+  width:500px;
+  
+}
+table,th,td{
+  border-collapse:collapse;
+border:3px solid blueviolet;
+width:50%;
+padding:12 px;
+margin:05 px;
+margin-left:auto;
+margin-right:auto;
+}
+footer{
+background-color:whitesmoke;
+  text-decoration-style: solid;
+  text-shadow:12px 12px marooon;
+  text-align:center;
+  color:blue;
+  width:100%;
+}
+#contacts{
+border: 5px;
+text-align: justify;
+padding: 10px;
+margin-top:20px;
+float: left;
+
+}
+#camp{
+height:600px;
+width:600px;
+}
+
+#images{
+  width:80%;
+  height:20%;
+  display:flex;
+  flex-direction:row;
+  padding:10px;
+  margin-right:12px;
+  margin:20px;
+  margin-top:12px;
+  
+}
+#1,#2,#3{padding:12px;
+justify-content:space-between;
+}
+
+nav>ul>li{
+list-style:none;
+display:inline;
+padding:12px;
+}
+nav>ul{
+text-align:right;
+padding:20px;
+float:right;
+}
+a{
+text-decoration:none;
+}
+h2{
+text-align:center;
+  color:blue;
+  font-size:300%;
+}
+#mainav{
+background-color:aqua;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom:10px;
+/*left:0;*/
+/*right:0;*/
+}
+img{
+width:100%;
+height:60%;
+}
+a:hover{
+  color:black;
+  background:rgba(225,0,0.89,233 120);
+  background-shadow:20px;
+  text-decoration-style:solid;
+  background-color: aqua;
+}
+
+body{
+  padding: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+}
+.section{
+  text-align: center;
+  font-size:50px;
+  color:blue;
+}
+#slogan{
+  color:green;
+  font-size:30px;
+}
+.breast,.cervical,.postrate,.colorectal{
+width: 30%;
+border:05px solid blueviolet;
+position:right;
+height:30%;
+padding:05px;
+margin:10px;
+overflow:scroll;
+background-image:url("https://cdn.shopify.com/s/files/1/2406/9143/products/3m-littmann-classic-ii-infant-stethoscope-2125-raspberry_400x400.jpg?v=1548190962");
+background-repeat:no-repeat;
+}
+.con{
+display: flex;
+/*clear:left;*/
+flex-direction:row;
+flex-wrap:wrap;
+
+}
+.som{
+height:04%;
+color:black;
+width:03%;
+display:inline;
+display:flex;
+flex-direction:row;
+text-align:center;
+padding:22px;
+left:100px;
+}
+
+*{scroll-behavior:smooth;
+}
+
