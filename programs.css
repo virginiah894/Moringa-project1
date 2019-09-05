@@ -1,0 +1,12 @@
+table,th,td{
+    border-collapse:collapse;
+border:3px solid blueviolet;
+width:50%;
+padding:12 px;
+margin:05 px;
+
+}
+#programs {
+    padding-top: 100px;
+    margin-top: 50px;
+}
